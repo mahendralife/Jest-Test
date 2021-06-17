@@ -1,3 +1,4 @@
+```
 
 import { render , unmountComponentAtNode} from 'react-dom';
 import { act} from 'react-dom/test-utils';
@@ -34,3 +35,5 @@ it("renders user data", async () => { /* Mock API test  */
     //mock API test 
     jest.spyOn(global, 'fetach').mockImplementation(()=> Promise.resolve({json: ()=> Promise.resolve(fakeUser)}))
 });
+
+```
